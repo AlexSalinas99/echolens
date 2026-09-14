@@ -1,0 +1,10 @@
+| scenario                       | Gemini-Flash-Lite    |
+|:-------------------------------|:---------------------|
+| Civic and Religious Activities | -0.10 [-0.19, +0.03] |
+| Educational Activities         | +0.06 [-0.29, +0.23] |
+| Finance                        | +0.02 [-0.11, +0.22] |
+| Household Activities           | -0.14 [-0.32, +0.06] |
+| Leisure and Sports             | +0.05 [-0.05, +0.18] |
+| Personal Care                  | -0.01 [-0.20, +0.16] |
+| Purchasing Goods and Services  | +0.06 [-0.03, +0.18] |
+| Work-related Activities        | -0.05 [-0.19, +0.09] |

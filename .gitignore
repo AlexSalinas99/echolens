@@ -1,0 +1,60 @@
+# ===========================================================================
+# EchoLens — public repository
+#
+# Bulk artifacts (audio, raw model responses, ASR transcripts) are NOT tracked
+# here. They live on Hugging Face and are fetched by scripts/download_from_hf.py
+# See docs/data_access.md
+# ===========================================================================
+
+# --- NEVER COMMIT: participant re-identification linkage -------------------
+private/
+**/id_map*.csv
+*prolific*.csv
+*qualtrics*.csv
+
+# --- NEVER COMMIT: credentials ---------------------------------------------
+.env
+.env.*
+!.env.example
+.openai_env
+.claude/
+*.pem
+*.key
+secrets*.json
+service-account*.json
+application_default_credentials.json
+
+# --- Bulk data: fetched from Hugging Face, never tracked -------------------
+# No trailing slashes, so these match symlinks as well as real directories.
+data/audio
+data/_audio_assembled
+data/model_outputs/responses
+data/model_outputs/transcripts
+data/model_outputs/_llm_cache
+data/model_outputs/wer/wer_per_clip.csv
+data/model_outputs/secondary_speech_metrics.csv
+**/_pre_rerun_reference/
+
+# --- Python -----------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+
+# --- Jupyter ----------------------------------------------------------------
+.ipynb_checkpoints/
+*-checkpoint.ipynb
+.virtual_documents/
+
+# --- Caches / scratch --------------------------------------------------------
+**/.cache/
+**/.huggingface/
+*.bak
+*.tmp
+*.swp
+.DS_Store

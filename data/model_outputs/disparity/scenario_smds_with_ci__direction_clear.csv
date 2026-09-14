@@ -1,0 +1,409 @@
+model_id,condition,winsorize_pct,scenario,axis,point,ci_lo,ci_hi,n_prompts,n_iters_with_data_race,n_boot_finite
+Qwen/Qwen2.5-Omni-7B,direct_audio_response,0.01,Civic and Religious Activities,accent,0.0139834967829505,-0.1256008593213508,0.1628148785672746,3,3,2000
+Qwen/Qwen2.5-Omni-7B,direct_audio_response,0.01,Civic and Religious Activities,gender,0.0151258306887016,-0.1295433112596417,0.1609307724604561,3,3,2000
+Qwen/Qwen2.5-Omni-7B,direct_audio_response,0.01,Civic and Religious Activities,race,-0.1153122220755894,-0.2471195929408659,0.0223222026249199,3,3,2000
+Qwen/Qwen2.5-Omni-7B,direct_audio_response,0.01,Educational Activities,accent,-0.0080487737159546,-0.3028623437453991,0.2887032367319487,1,3,2000
+Qwen/Qwen2.5-Omni-7B,direct_audio_response,0.01,Educational Activities,gender,-0.4702352221730688,-0.7452151424877898,-0.2006064125000266,1,3,2000
+Qwen/Qwen2.5-Omni-7B,direct_audio_response,0.01,Educational Activities,race,-0.1374359770405652,-0.3921243675761972,0.124189213001919,1,3,2000
+Qwen/Qwen2.5-Omni-7B,direct_audio_response,0.01,Finance,accent,-0.0069415718328404,-0.1672291868515553,0.1326917901821359,3,3,2000
+Qwen/Qwen2.5-Omni-7B,direct_audio_response,0.01,Finance,gender,-0.1230462336133858,-0.2682342554892266,0.0242822839060059,3,3,2000
+Qwen/Qwen2.5-Omni-7B,direct_audio_response,0.01,Finance,race,-0.0544350398966732,-0.1960349512800202,0.0892099865046201,3,3,2000
+Qwen/Qwen2.5-Omni-7B,direct_audio_response,0.01,Household Activities,accent,0.0196024586741438,-0.2169949235773081,0.2877068374295917,1,3,2000
+Qwen/Qwen2.5-Omni-7B,direct_audio_response,0.01,Household Activities,gender,-0.1541642807352977,-0.4269768446555367,0.1030642759074661,1,3,2000
+Qwen/Qwen2.5-Omni-7B,direct_audio_response,0.01,Household Activities,race,0.0673554026135886,-0.1948509682577816,0.3333662499695244,1,3,2000
+Qwen/Qwen2.5-Omni-7B,direct_audio_response,0.01,Leisure and Sports,accent,0.0403595905697255,-0.0743915189731429,0.1560534223590276,5,3,2000
+Qwen/Qwen2.5-Omni-7B,direct_audio_response,0.01,Leisure and Sports,gender,-0.0058927949870495,-0.1179418500322915,0.1090448622526257,5,3,2000
+Qwen/Qwen2.5-Omni-7B,direct_audio_response,0.01,Leisure and Sports,race,0.1324721549036379,0.0197746561047704,0.2474866299497444,5,3,2000
+Qwen/Qwen2.5-Omni-7B,direct_audio_response,0.01,Personal Care,accent,-0.2446042702365653,-0.4592309606571592,-0.0433352696604363,2,3,2000
+Qwen/Qwen2.5-Omni-7B,direct_audio_response,0.01,Personal Care,gender,-0.0864500718031373,-0.273671263670123,0.0965484637531546,2,3,2000
+Qwen/Qwen2.5-Omni-7B,direct_audio_response,0.01,Personal Care,race,-0.1556287415352327,-0.3387331673082124,0.0263545673809618,2,3,2000
+Qwen/Qwen2.5-Omni-7B,direct_audio_response,0.01,Purchasing Goods and Services,accent,-0.035939087484681,-0.1850131114581903,0.0828229095268398,5,3,2000
+Qwen/Qwen2.5-Omni-7B,direct_audio_response,0.01,Purchasing Goods and Services,gender,-0.0548265245095207,-0.193574666574068,0.0831209315025404,5,3,2000
+Qwen/Qwen2.5-Omni-7B,direct_audio_response,0.01,Purchasing Goods and Services,race,0.1103819827034564,-0.0157053258696655,0.232553278738061,5,3,2000
+Qwen/Qwen2.5-Omni-7B,direct_audio_response,0.01,Work-related Activities,accent,-0.1971509491221285,-0.4652748385217028,0.0645547273899725,1,3,2000
+Qwen/Qwen2.5-Omni-7B,direct_audio_response,0.01,Work-related Activities,gender,-0.0628636710304826,-0.3193054223168231,0.2015616379429485,1,3,2000
+Qwen/Qwen2.5-Omni-7B,direct_audio_response,0.01,Work-related Activities,race,-0.2140783716126788,-0.4827194302989234,0.0476001399399603,1,3,2000
+Qwen/Qwen2.5-Omni-7B,direct_audio_response,,Civic and Religious Activities,accent,0.0869960558329607,-0.0886534696645577,0.2067063088222144,3,3,2000
+Qwen/Qwen2.5-Omni-7B,direct_audio_response,,Civic and Religious Activities,gender,0.013992246646379,-0.1136887684067328,0.1568855398014131,3,3,2000
+Qwen/Qwen2.5-Omni-7B,direct_audio_response,,Civic and Religious Activities,race,0.0424898577565652,-0.2101623234105107,0.1562886127149848,3,3,2000
+Qwen/Qwen2.5-Omni-7B,direct_audio_response,,Educational Activities,accent,-0.0340565096777944,-0.3173078199661192,0.2594659260814683,1,3,2000
+Qwen/Qwen2.5-Omni-7B,direct_audio_response,,Educational Activities,gender,-0.4876173678512925,-0.7542911195541828,-0.2286394485986414,1,3,2000
+Qwen/Qwen2.5-Omni-7B,direct_audio_response,,Educational Activities,race,-0.0933943183173759,-0.3587604060667075,0.1664477323064041,1,3,2000
+Qwen/Qwen2.5-Omni-7B,direct_audio_response,,Finance,accent,-0.0559191159836919,-0.2016672619449441,0.13641503598532,3,3,2000
+Qwen/Qwen2.5-Omni-7B,direct_audio_response,,Finance,gender,-0.1100441101866043,-0.2353709212333423,0.0216520282264089,3,3,2000
+Qwen/Qwen2.5-Omni-7B,direct_audio_response,,Finance,race,-0.0867865628440941,-0.2607608627787285,0.0781810848821363,3,3,2000
+Qwen/Qwen2.5-Omni-7B,direct_audio_response,,Household Activities,accent,0.1022603184786497,-0.170860863968339,0.2364466034739077,1,3,2000
+Qwen/Qwen2.5-Omni-7B,direct_audio_response,,Household Activities,gender,0.096542947285324,-0.3830236458050971,0.2461405274675979,1,3,2000
+Qwen/Qwen2.5-Omni-7B,direct_audio_response,,Household Activities,race,0.1440627800433412,-0.1342934482073003,0.2930080369104851,1,3,2000
+Qwen/Qwen2.5-Omni-7B,direct_audio_response,,Leisure and Sports,accent,-0.0016576715848559,-0.1182747158233031,0.1318618027264266,5,3,2000
+Qwen/Qwen2.5-Omni-7B,direct_audio_response,,Leisure and Sports,gender,-0.0076018147273225,-0.1147040171074692,0.1035612187879099,5,3,2000
+Qwen/Qwen2.5-Omni-7B,direct_audio_response,,Leisure and Sports,race,0.1255521040321797,-0.0002575972758691,0.2316034445653527,5,3,2000
+Qwen/Qwen2.5-Omni-7B,direct_audio_response,,Personal Care,accent,-0.2552657186799078,-0.4667207132369139,-0.0556707657097557,2,3,2000
+Qwen/Qwen2.5-Omni-7B,direct_audio_response,,Personal Care,gender,-0.0755169790727823,-0.2646722780606731,0.1092793263904082,2,3,2000
+Qwen/Qwen2.5-Omni-7B,direct_audio_response,,Personal Care,race,-0.15741706479761,-0.3442764060090038,0.0248744792545212,2,3,2000
+Qwen/Qwen2.5-Omni-7B,direct_audio_response,,Purchasing Goods and Services,accent,-0.0465564847997306,-0.18532058745522,0.0697904630625964,5,3,2000
+Qwen/Qwen2.5-Omni-7B,direct_audio_response,,Purchasing Goods and Services,gender,-0.0399984722133714,-0.1750100549420318,0.0879385807599594,5,3,2000
+Qwen/Qwen2.5-Omni-7B,direct_audio_response,,Purchasing Goods and Services,race,0.1049868802251665,-0.0101765523768681,0.2307977191362414,5,3,2000
+Qwen/Qwen2.5-Omni-7B,direct_audio_response,,Work-related Activities,accent,0.040382944900965,-0.1430105856405083,0.1487872555755186,2,3,2000
+Qwen/Qwen2.5-Omni-7B,direct_audio_response,,Work-related Activities,gender,0.0976515002670708,-0.2184091511100714,0.2130523202582033,2,3,2000
+Qwen/Qwen2.5-Omni-7B,direct_audio_response,,Work-related Activities,race,0.038621188567814,-0.2838088256386007,0.2278773166572067,2,3,2000
+Qwen/Qwen2.5-Omni-7B,external_transcript_response,0.01,Civic and Religious Activities,accent,-0.0385334202846568,-0.1708034977285226,0.1035740030889712,3,3,2000
+Qwen/Qwen2.5-Omni-7B,external_transcript_response,0.01,Civic and Religious Activities,gender,-0.0926228662902387,-0.2500243224024459,0.0405025822931703,3,3,2000
+Qwen/Qwen2.5-Omni-7B,external_transcript_response,0.01,Civic and Religious Activities,race,-0.0078271357049567,-0.133286688129144,0.1411096812082166,3,3,2000
+Qwen/Qwen2.5-Omni-7B,external_transcript_response,0.01,Educational Activities,accent,,,,0,0,0
+Qwen/Qwen2.5-Omni-7B,external_transcript_response,0.01,Educational Activities,gender,,,,0,0,0
+Qwen/Qwen2.5-Omni-7B,external_transcript_response,0.01,Educational Activities,race,,,,0,0,0
+Qwen/Qwen2.5-Omni-7B,external_transcript_response,0.01,Finance,accent,0.0585744545959364,-0.1142883994088505,0.2405894677594609,2,3,2000
+Qwen/Qwen2.5-Omni-7B,external_transcript_response,0.01,Finance,gender,0.0135176454917191,-0.1480859617140929,0.1917353360833197,2,3,2000
+Qwen/Qwen2.5-Omni-7B,external_transcript_response,0.01,Finance,race,-0.1829304304477112,-0.3550506072492889,-0.0104359587520965,2,3,2000
+Qwen/Qwen2.5-Omni-7B,external_transcript_response,0.01,Household Activities,accent,0.0493490316095065,-0.17214791941464,0.2818788562454474,1,3,2000
+Qwen/Qwen2.5-Omni-7B,external_transcript_response,0.01,Household Activities,gender,0.1167826692157365,-0.1393781249538243,0.3339879383159138,1,3,2000
+Qwen/Qwen2.5-Omni-7B,external_transcript_response,0.01,Household Activities,race,0.1173311432766208,-0.1481643399118304,0.3705214039925398,1,3,2000
+Qwen/Qwen2.5-Omni-7B,external_transcript_response,0.01,Leisure and Sports,accent,0.0872659389550646,-0.0589575486284392,0.2611177525864323,3,3,2000
+Qwen/Qwen2.5-Omni-7B,external_transcript_response,0.01,Leisure and Sports,gender,0.1056889312111094,-0.029299981589521,0.2246415180532158,3,3,2000
+Qwen/Qwen2.5-Omni-7B,external_transcript_response,0.01,Leisure and Sports,race,0.009011278072556,-0.1178244356701576,0.1572040581429234,3,3,2000
+Qwen/Qwen2.5-Omni-7B,external_transcript_response,0.01,Personal Care,accent,-0.013329305203814,-0.1994830259560608,0.2375081145571269,2,3,2000
+Qwen/Qwen2.5-Omni-7B,external_transcript_response,0.01,Personal Care,gender,0.0415188668111235,-0.1568434488512943,0.1726789825170582,2,3,2000
+Qwen/Qwen2.5-Omni-7B,external_transcript_response,0.01,Personal Care,race,0.1084216547538154,-0.0513098988370329,0.2575153998122418,2,3,2000
+Qwen/Qwen2.5-Omni-7B,external_transcript_response,0.01,Purchasing Goods and Services,accent,-0.0093834792745798,-0.1450115747066399,0.1232510410535574,4,3,2000
+Qwen/Qwen2.5-Omni-7B,external_transcript_response,0.01,Purchasing Goods and Services,gender,-0.0674944939131892,-0.1882366159967561,0.0464302932455576,4,3,2000
+Qwen/Qwen2.5-Omni-7B,external_transcript_response,0.01,Purchasing Goods and Services,race,0.0184730800242016,-0.101310421844112,0.1437148228375864,4,3,2000
+Qwen/Qwen2.5-Omni-7B,external_transcript_response,0.01,Work-related Activities,accent,-0.1692268575822667,-0.3029003683056927,0.0656527900312648,1,3,1998
+Qwen/Qwen2.5-Omni-7B,external_transcript_response,0.01,Work-related Activities,gender,0.1430721813421177,-0.1533530295000516,0.3536448736527894,1,3,1998
+Qwen/Qwen2.5-Omni-7B,external_transcript_response,0.01,Work-related Activities,race,-0.2021900781325961,-0.4035343074264673,0.0582451147731341,1,3,1998
+Qwen/Qwen2.5-Omni-7B,external_transcript_response,,Civic and Religious Activities,accent,0.0177001601608201,-0.1184234853006846,0.1243728667132154,3,3,2000
+Qwen/Qwen2.5-Omni-7B,external_transcript_response,,Civic and Religious Activities,gender,-0.0762383683807854,-0.216054951044511,0.0534953568152311,3,3,2000
+Qwen/Qwen2.5-Omni-7B,external_transcript_response,,Civic and Religious Activities,race,0.043165968030422,-0.0857022453005398,0.1670883053146837,3,3,2000
+Qwen/Qwen2.5-Omni-7B,external_transcript_response,,Educational Activities,accent,-0.2264226797820187,-0.41311759235722,-0.0893534103217604,1,3,1921
+Qwen/Qwen2.5-Omni-7B,external_transcript_response,,Educational Activities,gender,0.023049714793339,-0.1836081168676648,0.252035334787786,1,3,1921
+Qwen/Qwen2.5-Omni-7B,external_transcript_response,,Educational Activities,race,-0.2153629976411934,-0.3393213392029845,-0.1225146624681512,1,3,1921
+Qwen/Qwen2.5-Omni-7B,external_transcript_response,,Finance,accent,-0.0314921713336687,-0.1127277433356478,0.1042114915178058,3,3,2000
+Qwen/Qwen2.5-Omni-7B,external_transcript_response,,Finance,gender,0.0385835337868467,-0.0797489326857513,0.1530440043468867,3,3,2000
+Qwen/Qwen2.5-Omni-7B,external_transcript_response,,Finance,race,-0.0419429590532172,-0.2426366426921595,0.0461137906642076,3,3,2000
+Qwen/Qwen2.5-Omni-7B,external_transcript_response,,Household Activities,accent,0.1012279442291137,-0.1383753849383727,0.2228829466382233,1,3,2000
+Qwen/Qwen2.5-Omni-7B,external_transcript_response,,Household Activities,gender,-0.1253493383935771,-0.2355391466394937,0.3015780709306218,1,3,2000
+Qwen/Qwen2.5-Omni-7B,external_transcript_response,,Household Activities,race,0.1357329320893437,-0.1117574308761142,0.2978567206214924,1,3,2000
+Qwen/Qwen2.5-Omni-7B,external_transcript_response,,Leisure and Sports,accent,0.0292580673078995,-0.0786854725331527,0.2095881358460695,4,3,2000
+Qwen/Qwen2.5-Omni-7B,external_transcript_response,,Leisure and Sports,gender,0.1421775133366264,0.02593813672863,0.2399125066053161,4,3,2000
+Qwen/Qwen2.5-Omni-7B,external_transcript_response,,Leisure and Sports,race,-0.0057032868169625,-0.1469502389647659,0.1308375226618711,4,3,2000
+Qwen/Qwen2.5-Omni-7B,external_transcript_response,,Personal Care,accent,-0.0001400884987513,-0.1895883556492542,0.2125214277342244,2,3,2000
+Qwen/Qwen2.5-Omni-7B,external_transcript_response,,Personal Care,gender,0.0502359128099174,-0.09664619051882,0.1825126613095286,2,3,2000
+Qwen/Qwen2.5-Omni-7B,external_transcript_response,,Personal Care,race,0.0796520443706885,-0.0982668803537777,0.2300478522989791,2,3,2000
+Qwen/Qwen2.5-Omni-7B,external_transcript_response,,Purchasing Goods and Services,accent,-0.0266031944329257,-0.1406529868738975,0.099251080648776,5,3,2000
+Qwen/Qwen2.5-Omni-7B,external_transcript_response,,Purchasing Goods and Services,gender,-0.0195990182465275,-0.1345246346135873,0.0610889254388813,5,3,2000
+Qwen/Qwen2.5-Omni-7B,external_transcript_response,,Purchasing Goods and Services,race,-0.0335164906953758,-0.1319745256755041,0.0767799628932834,5,3,2000
+Qwen/Qwen2.5-Omni-7B,external_transcript_response,,Work-related Activities,accent,-0.1710285672936813,-0.2977140476417333,0.053210468569983,1,3,1998
+Qwen/Qwen2.5-Omni-7B,external_transcript_response,,Work-related Activities,gender,0.1563969712435254,-0.148477275785952,0.3502610097749726,1,3,1998
+Qwen/Qwen2.5-Omni-7B,external_transcript_response,,Work-related Activities,race,-0.1503714479898,-0.4026347267935612,0.1099819447619969,1,3,1998
+gemini-3.1-flash-lite-preview,direct_audio_response,0.01,Civic and Religious Activities,accent,-0.0672621068744118,-0.2803109625802725,0.1537250177067228,2,3,2000
+gemini-3.1-flash-lite-preview,direct_audio_response,0.01,Civic and Religious Activities,gender,0.0185264386568638,-0.1836211732173408,0.2214273353242433,2,3,2000
+gemini-3.1-flash-lite-preview,direct_audio_response,0.01,Civic and Religious Activities,race,-0.2719379189025059,-0.4856022833608608,-0.0828285100281495,2,3,2000
+gemini-3.1-flash-lite-preview,direct_audio_response,0.01,Finance,accent,-0.0370920793156842,-0.3322385284849053,0.2249422766663515,1,3,2000
+gemini-3.1-flash-lite-preview,direct_audio_response,0.01,Finance,gender,-0.1176827196182989,-0.3572644926910785,0.1351992123890173,1,3,2000
+gemini-3.1-flash-lite-preview,direct_audio_response,0.01,Finance,race,0.0489566974311357,-0.203698448326855,0.3058244236387997,1,3,2000
+gemini-3.1-flash-lite-preview,direct_audio_response,0.01,Household Activities,accent,0.1075109106047714,-0.157059811807114,0.3754903027416135,1,3,2000
+gemini-3.1-flash-lite-preview,direct_audio_response,0.01,Household Activities,gender,-0.3894258641247156,-0.6657826925051403,-0.1300693137512831,1,3,2000
+gemini-3.1-flash-lite-preview,direct_audio_response,0.01,Household Activities,race,0.2699813598543541,0.0127935510638262,0.5451230684318297,1,3,2000
+gemini-3.1-flash-lite-preview,direct_audio_response,0.01,Leisure and Sports,accent,-0.0166315264879347,-0.1961708099757499,0.1746194856790147,3,3,2000
+gemini-3.1-flash-lite-preview,direct_audio_response,0.01,Leisure and Sports,gender,-0.2077883233054912,-0.3621451096270159,-0.0526587043425407,3,3,2000
+gemini-3.1-flash-lite-preview,direct_audio_response,0.01,Leisure and Sports,race,-0.0449127643295878,-0.2097891434466352,0.1162079184691914,3,3,2000
+gemini-3.1-flash-lite-preview,direct_audio_response,0.01,Personal Care,accent,-0.1948588048871558,-0.4764508615123267,0.0849926874113054,1,3,2000
+gemini-3.1-flash-lite-preview,direct_audio_response,0.01,Personal Care,gender,-0.0111199490006239,-0.2597430948131963,0.2395086663774587,1,3,2000
+gemini-3.1-flash-lite-preview,direct_audio_response,0.01,Personal Care,race,-0.1213039310811432,-0.3880229762743945,0.1179645106836623,1,3,2000
+gemini-3.1-flash-lite-preview,direct_audio_response,0.01,Purchasing Goods and Services,accent,-0.2464464013442853,-0.3848211927511952,-0.1095032680460239,5,3,2000
+gemini-3.1-flash-lite-preview,direct_audio_response,0.01,Purchasing Goods and Services,gender,-0.1020221037783493,-0.2320773995366913,0.0227282634017622,5,3,2000
+gemini-3.1-flash-lite-preview,direct_audio_response,0.01,Purchasing Goods and Services,race,-0.3917628288903556,-0.5279454273972245,-0.2582956928317192,5,3,2000
+gemini-3.1-flash-lite-preview,direct_audio_response,0.01,Work-related Activities,accent,0.0309500310988047,-0.2159331381057424,0.269884375965254,2,3,2000
+gemini-3.1-flash-lite-preview,direct_audio_response,0.01,Work-related Activities,gender,0.1420824076733994,-0.0578919906661572,0.3464862741311686,2,3,2000
+gemini-3.1-flash-lite-preview,direct_audio_response,0.01,Work-related Activities,race,0.0881990119005057,-0.1092999122971294,0.2880050945044098,2,3,2000
+gemini-3.1-flash-lite-preview,direct_audio_response,,Civic and Religious Activities,accent,-0.0714939052139333,-0.2857081640335793,0.1484808586795705,2,3,2000
+gemini-3.1-flash-lite-preview,direct_audio_response,,Civic and Religious Activities,gender,0.0239159176176501,-0.1772053013137971,0.22764943160242,2,3,2000
+gemini-3.1-flash-lite-preview,direct_audio_response,,Civic and Religious Activities,race,-0.2769497792634809,-0.4893517365164238,-0.0890107203196697,2,3,2000
+gemini-3.1-flash-lite-preview,direct_audio_response,,Finance,accent,-0.1492503177328904,-0.3928639240945234,0.166129863958047,1,3,2000
+gemini-3.1-flash-lite-preview,direct_audio_response,,Finance,gender,-0.0803050289466877,-0.3667998748231163,0.1583135328900853,1,3,2000
+gemini-3.1-flash-lite-preview,direct_audio_response,,Finance,race,0.0334330726960704,-0.2450873258841035,0.2737337759659828,1,3,2000
+gemini-3.1-flash-lite-preview,direct_audio_response,,Household Activities,accent,0.1075109106047714,-0.157059811807114,0.3754903027416135,1,3,2000
+gemini-3.1-flash-lite-preview,direct_audio_response,,Household Activities,gender,-0.3894258641247156,-0.6657826925051403,-0.1300693137512831,1,3,2000
+gemini-3.1-flash-lite-preview,direct_audio_response,,Household Activities,race,0.2699813598543541,0.0127935510638262,0.5451230684318297,1,3,2000
+gemini-3.1-flash-lite-preview,direct_audio_response,,Leisure and Sports,accent,-0.082111393483628,-0.237737734829327,0.1189076945712415,4,3,2000
+gemini-3.1-flash-lite-preview,direct_audio_response,,Leisure and Sports,gender,-0.0881547357450561,-0.2777150120440786,0.025692017243656,4,3,2000
+gemini-3.1-flash-lite-preview,direct_audio_response,,Leisure and Sports,race,-0.0524764528089311,-0.1830416785783853,0.0813385099896881,4,3,2000
+gemini-3.1-flash-lite-preview,direct_audio_response,,Personal Care,accent,-0.1415813600881448,-0.4202502873916078,0.119556460900454,1,3,2000
+gemini-3.1-flash-lite-preview,direct_audio_response,,Personal Care,gender,-0.0292857547409405,-0.2664601076430331,0.223653814505264,1,3,2000
+gemini-3.1-flash-lite-preview,direct_audio_response,,Personal Care,race,-0.0715420061968444,-0.3579080133107012,0.1672481411073929,1,3,2000
+gemini-3.1-flash-lite-preview,direct_audio_response,,Purchasing Goods and Services,accent,-0.226199322319284,-0.3738609845099745,-0.0904097732876175,5,3,2000
+gemini-3.1-flash-lite-preview,direct_audio_response,,Purchasing Goods and Services,gender,-0.1077380385271808,-0.2283798481029927,0.0059461158211236,5,3,2000
+gemini-3.1-flash-lite-preview,direct_audio_response,,Purchasing Goods and Services,race,-0.325634173581435,-0.4853235606026366,-0.2106915021155073,5,3,2000
+gemini-3.1-flash-lite-preview,direct_audio_response,,Work-related Activities,accent,0.0295136618364395,-0.2175005226400564,0.2679783702247963,2,3,2000
+gemini-3.1-flash-lite-preview,direct_audio_response,,Work-related Activities,gender,0.1446596584188597,-0.0562096018732829,0.3468929670654019,2,3,2000
+gemini-3.1-flash-lite-preview,direct_audio_response,,Work-related Activities,race,0.0848796431443414,-0.1104965810852005,0.2865400184246379,2,3,2000
+gemini-3.1-flash-lite-preview,external_transcript_response,0.01,Civic and Religious Activities,accent,-0.125108734455552,-0.3023647383147956,0.0474033461385725,2,3,2000
+gemini-3.1-flash-lite-preview,external_transcript_response,0.01,Civic and Religious Activities,gender,0.0457000851131801,-0.1115103556003213,0.2144253552179014,2,3,2000
+gemini-3.1-flash-lite-preview,external_transcript_response,0.01,Civic and Religious Activities,race,-0.239440792721968,-0.4131360250648735,-0.0735217029792163,2,3,2000
+gemini-3.1-flash-lite-preview,external_transcript_response,0.01,Educational Activities,accent,,,,0,0,0
+gemini-3.1-flash-lite-preview,external_transcript_response,0.01,Educational Activities,gender,,,,0,0,0
+gemini-3.1-flash-lite-preview,external_transcript_response,0.01,Educational Activities,race,,,,0,0,0
+gemini-3.1-flash-lite-preview,external_transcript_response,0.01,Finance,accent,-0.1710274454681354,-0.2776969237927025,-0.0369309501008586,3,3,2000
+gemini-3.1-flash-lite-preview,external_transcript_response,0.01,Finance,gender,0.0778187623851599,-0.047062751477481,0.2057351615299417,3,3,2000
+gemini-3.1-flash-lite-preview,external_transcript_response,0.01,Finance,race,-0.0475959185194601,-0.17677329546254,0.0673803323898977,3,3,2000
+gemini-3.1-flash-lite-preview,external_transcript_response,0.01,Household Activities,accent,0.0917655668623744,-0.1804374612651682,0.3258729217641502,1,3,2000
+gemini-3.1-flash-lite-preview,external_transcript_response,0.01,Household Activities,gender,0.2063629208178428,-0.0494447699304545,0.4361826016359743,1,3,2000
+gemini-3.1-flash-lite-preview,external_transcript_response,0.01,Household Activities,race,-0.0229842495020419,-0.2908595242195858,0.2263264777397796,1,3,2000
+gemini-3.1-flash-lite-preview,external_transcript_response,0.01,Leisure and Sports,accent,-0.0755503688887882,-0.1905191939728005,0.069420069622818,3,3,2000
+gemini-3.1-flash-lite-preview,external_transcript_response,0.01,Leisure and Sports,gender,-0.0253832659557944,-0.1767725676681588,0.1223926500064532,3,3,2000
+gemini-3.1-flash-lite-preview,external_transcript_response,0.01,Leisure and Sports,race,-0.0965322785858455,-0.2255334984029663,0.0474305448458911,3,3,2000
+gemini-3.1-flash-lite-preview,external_transcript_response,0.01,Personal Care,accent,0.0227433847146781,-0.13342282164278,0.1935304914057758,2,3,2000
+gemini-3.1-flash-lite-preview,external_transcript_response,0.01,Personal Care,gender,-0.1098846059340633,-0.2857118096720644,0.0519263014193407,2,3,2000
+gemini-3.1-flash-lite-preview,external_transcript_response,0.01,Personal Care,race,0.0737124986788795,-0.1064094108765884,0.2290221788266656,2,3,2000
+gemini-3.1-flash-lite-preview,external_transcript_response,0.01,Purchasing Goods and Services,accent,0.0519201304986043,-0.1012556792197432,0.2035576246348768,3,3,2000
+gemini-3.1-flash-lite-preview,external_transcript_response,0.01,Purchasing Goods and Services,gender,-0.0264746072091389,-0.1761443023860546,0.1161506566599073,3,3,2000
+gemini-3.1-flash-lite-preview,external_transcript_response,0.01,Purchasing Goods and Services,race,0.026923803425119,-0.1100958290796038,0.1635843036862445,3,3,2000
+gemini-3.1-flash-lite-preview,external_transcript_response,0.01,Work-related Activities,accent,-0.0153261345371141,-0.321288577919674,0.2776511454011999,1,3,2000
+gemini-3.1-flash-lite-preview,external_transcript_response,0.01,Work-related Activities,gender,0.1209345929188365,-0.1500579770880896,0.3560618605269502,1,3,2000
+gemini-3.1-flash-lite-preview,external_transcript_response,0.01,Work-related Activities,race,0.0568062742850588,-0.2252847131585881,0.3027899279441264,1,3,2000
+gemini-3.1-flash-lite-preview,external_transcript_response,,Civic and Religious Activities,accent,-0.1126467381676768,-0.2882249044798812,0.0159101625214701,3,3,2000
+gemini-3.1-flash-lite-preview,external_transcript_response,,Civic and Religious Activities,gender,-0.0184552729230768,-0.1248247171246703,0.1424238817218275,3,3,2000
+gemini-3.1-flash-lite-preview,external_transcript_response,,Civic and Religious Activities,race,-0.0773510197026986,-0.3201170242821555,0.0378601987521471,3,3,2000
+gemini-3.1-flash-lite-preview,external_transcript_response,,Educational Activities,accent,-0.1282321125487207,-0.2139811569975097,-0.0879247676930529,1,3,1734
+gemini-3.1-flash-lite-preview,external_transcript_response,,Educational Activities,gender,0.057982515487138,-0.2096679110672241,0.2429662889443534,1,3,1734
+gemini-3.1-flash-lite-preview,external_transcript_response,,Educational Activities,race,-0.1833207892733697,-0.3140530910180472,-0.122668737042569,1,3,1734
+gemini-3.1-flash-lite-preview,external_transcript_response,,Finance,accent,-0.0848340506253165,-0.2339506335720432,0.0486379928984837,3,3,2000
+gemini-3.1-flash-lite-preview,external_transcript_response,,Finance,gender,0.0620122546688911,-0.0693070737028239,0.2065387550944363,3,3,2000
+gemini-3.1-flash-lite-preview,external_transcript_response,,Finance,race,0.0248012416699685,-0.126293284497028,0.0909311603105056,3,3,2000
+gemini-3.1-flash-lite-preview,external_transcript_response,,Household Activities,accent,0.1300927629941448,-0.1215429338450918,0.2927075317634504,1,3,2000
+gemini-3.1-flash-lite-preview,external_transcript_response,,Household Activities,gender,0.2423679028528374,0.0235341355167056,0.3981510167979658,1,3,2000
+gemini-3.1-flash-lite-preview,external_transcript_response,,Household Activities,race,0.0904740242511841,-0.2454215590658556,0.275991168316627,1,3,2000
+gemini-3.1-flash-lite-preview,external_transcript_response,,Leisure and Sports,accent,0.0707229423325363,-0.0579133121982127,0.1772447787272663,5,3,2000
+gemini-3.1-flash-lite-preview,external_transcript_response,,Leisure and Sports,gender,0.0481360978539449,-0.0905920831665197,0.1589937866214891,5,3,2000
+gemini-3.1-flash-lite-preview,external_transcript_response,,Leisure and Sports,race,-0.0376207595819423,-0.1587255192387636,0.0636466394095475,5,3,2000
+gemini-3.1-flash-lite-preview,external_transcript_response,,Personal Care,accent,0.1056462540110452,-0.0916430969970873,0.2207889733912655,2,3,2000
+gemini-3.1-flash-lite-preview,external_transcript_response,,Personal Care,gender,-0.2041567118495161,-0.3245197671724286,0.0134460617372402,2,3,2000
+gemini-3.1-flash-lite-preview,external_transcript_response,,Personal Care,race,0.1065574557230639,-0.0487113260654972,0.2388422678911317,2,3,2000
+gemini-3.1-flash-lite-preview,external_transcript_response,,Purchasing Goods and Services,accent,0.0202423411629187,-0.12460931307298,0.176458163424077,4,3,2000
+gemini-3.1-flash-lite-preview,external_transcript_response,,Purchasing Goods and Services,gender,-0.0075772866887062,-0.1320423489182027,0.1199322157373004,4,3,2000
+gemini-3.1-flash-lite-preview,external_transcript_response,,Purchasing Goods and Services,race,0.0405339582717645,-0.0992142597916906,0.1393318117119715,4,3,2000
+gemini-3.1-flash-lite-preview,external_transcript_response,,Work-related Activities,accent,-0.0916141824670456,-0.2179363718329977,0.0471666212838642,3,3,2000
+gemini-3.1-flash-lite-preview,external_transcript_response,,Work-related Activities,gender,0.1212138403143531,-0.0463561977091373,0.2579160276325299,3,3,2000
+gemini-3.1-flash-lite-preview,external_transcript_response,,Work-related Activities,race,-0.1018273106672907,-0.2247022871717096,0.0477246375496289,3,3,2000
+gemini-3.1-flash-lite-preview,self_transcript_response,0.01,Civic and Religious Activities,accent,0.0040075857956839,-0.1301357448969048,0.14774675145526,2,3,2000
+gemini-3.1-flash-lite-preview,self_transcript_response,0.01,Civic and Religious Activities,gender,-0.0084509103739262,-0.1836291429402686,0.1768834372977447,2,3,2000
+gemini-3.1-flash-lite-preview,self_transcript_response,0.01,Civic and Religious Activities,race,-0.0289312228694847,-0.1900121284372551,0.1070759811682309,2,3,2000
+gemini-3.1-flash-lite-preview,self_transcript_response,0.01,Educational Activities,accent,-0.1624601862054525,-0.2493632257216274,-0.0898899521716467,1,3,1889
+gemini-3.1-flash-lite-preview,self_transcript_response,0.01,Educational Activities,gender,-0.2268813682952007,-0.3504383220252313,-0.1230078696273244,1,3,1889
+gemini-3.1-flash-lite-preview,self_transcript_response,0.01,Educational Activities,race,-0.0786053734708945,-0.2880620185725331,0.1939238837886188,1,3,1889
+gemini-3.1-flash-lite-preview,self_transcript_response,0.01,Finance,accent,0.0457566983092898,-0.0695361666547833,0.2286683825160252,2,3,2000
+gemini-3.1-flash-lite-preview,self_transcript_response,0.01,Finance,gender,-0.060793920025073,-0.2253465908283967,0.1278759789709472,2,3,2000
+gemini-3.1-flash-lite-preview,self_transcript_response,0.01,Finance,race,0.0214032105351512,-0.110120555352012,0.2167542173790303,2,3,2000
+gemini-3.1-flash-lite-preview,self_transcript_response,0.01,Household Activities,accent,0.0229189069976153,-0.1880850374284417,0.2517948340731273,2,3,2000
+gemini-3.1-flash-lite-preview,self_transcript_response,0.01,Household Activities,gender,-0.0299725627252805,-0.2172659647630502,0.1631183596913875,2,3,2000
+gemini-3.1-flash-lite-preview,self_transcript_response,0.01,Household Activities,race,-0.1367890000982187,-0.3218740023254,0.0602723574525668,2,3,2000
+gemini-3.1-flash-lite-preview,self_transcript_response,0.01,Leisure and Sports,accent,-0.0607166961294242,-0.2541195300120339,0.1592757113587816,2,3,2000
+gemini-3.1-flash-lite-preview,self_transcript_response,0.01,Leisure and Sports,gender,0.1200032160856985,-0.0725374230352181,0.2774181444388897,2,3,2000
+gemini-3.1-flash-lite-preview,self_transcript_response,0.01,Leisure and Sports,race,0.1313807365892183,-0.0045512993700726,0.3178521858936842,2,3,2000
+gemini-3.1-flash-lite-preview,self_transcript_response,0.01,Personal Care,accent,0.044732908790801,-0.1493582832142342,0.2443927742596761,2,3,2000
+gemini-3.1-flash-lite-preview,self_transcript_response,0.01,Personal Care,gender,0.0521407979606929,-0.1199273677982281,0.2273485241629087,2,3,2000
+gemini-3.1-flash-lite-preview,self_transcript_response,0.01,Personal Care,race,-0.0644813345917847,-0.2288382714185486,0.1133484165256314,2,3,2000
+gemini-3.1-flash-lite-preview,self_transcript_response,0.01,Purchasing Goods and Services,accent,0.074448934833297,-0.0388213174239583,0.1889179590669466,5,3,2000
+gemini-3.1-flash-lite-preview,self_transcript_response,0.01,Purchasing Goods and Services,gender,0.0160743212307192,-0.1004714683994927,0.1271705106538184,5,3,2000
+gemini-3.1-flash-lite-preview,self_transcript_response,0.01,Purchasing Goods and Services,race,0.0836477670600392,-0.0222851628514989,0.1908325436894867,5,3,2000
+gemini-3.1-flash-lite-preview,self_transcript_response,0.01,Work-related Activities,accent,-0.0121734401215645,-0.1651793102311951,0.1184743847762313,3,3,2000
+gemini-3.1-flash-lite-preview,self_transcript_response,0.01,Work-related Activities,gender,-0.0043524353838058,-0.1477354665349954,0.1491507428541038,3,3,2000
+gemini-3.1-flash-lite-preview,self_transcript_response,0.01,Work-related Activities,race,0.0083599252771997,-0.1378824879769875,0.1321610625223358,3,3,2000
+gemini-3.1-flash-lite-preview,self_transcript_response,,Civic and Religious Activities,accent,-0.0851634555973923,-0.1777971928256674,0.0596851955362155,3,3,2000
+gemini-3.1-flash-lite-preview,self_transcript_response,,Civic and Religious Activities,gender,-0.0862930825824057,-0.1857610626246333,0.0440103887931266,3,3,2000
+gemini-3.1-flash-lite-preview,self_transcript_response,,Civic and Religious Activities,race,-0.1029744875693748,-0.1914269156112036,0.0303233042728144,3,3,2000
+gemini-3.1-flash-lite-preview,self_transcript_response,,Educational Activities,accent,-0.1322277475236947,-0.2163310073383067,-0.0898899521716467,1,3,1889
+gemini-3.1-flash-lite-preview,self_transcript_response,,Educational Activities,gender,-0.1844263591642966,-0.3015870639141106,-0.1230078696273244,1,3,1889
+gemini-3.1-flash-lite-preview,self_transcript_response,,Educational Activities,race,0.0623175655965135,-0.2878024022732859,0.2286558930882854,1,3,1889
+gemini-3.1-flash-lite-preview,self_transcript_response,,Finance,accent,0.0460939720243896,-0.0695329928672656,0.2286683825160252,2,3,2000
+gemini-3.1-flash-lite-preview,self_transcript_response,,Finance,gender,-0.0653461142564408,-0.2248306758473822,0.1257638993863684,2,3,2000
+gemini-3.1-flash-lite-preview,self_transcript_response,,Finance,race,0.0218728479027502,-0.1097374084766369,0.2167542173790303,2,3,2000
+gemini-3.1-flash-lite-preview,self_transcript_response,,Household Activities,accent,0.0111089285496135,-0.1980438807533146,0.2426632409547475,2,3,2000
+gemini-3.1-flash-lite-preview,self_transcript_response,,Household Activities,gender,-0.020434666608916,-0.214826149517589,0.1714594510952065,2,3,2000
+gemini-3.1-flash-lite-preview,self_transcript_response,,Household Activities,race,-0.1407693992262733,-0.3248677102499517,0.0582675862026014,2,3,2000
+gemini-3.1-flash-lite-preview,self_transcript_response,,Leisure and Sports,accent,-0.0578722025899015,-0.1655625417709939,0.0590050035368321,5,3,2000
+gemini-3.1-flash-lite-preview,self_transcript_response,,Leisure and Sports,gender,0.0678327616189623,-0.0432839555623512,0.1920345249999596,5,3,2000
+gemini-3.1-flash-lite-preview,self_transcript_response,,Leisure and Sports,race,0.0489577348747998,-0.0504689104963633,0.1760205737574991,5,3,2000
+gemini-3.1-flash-lite-preview,self_transcript_response,,Personal Care,accent,0.0957197526215413,-0.118895220931897,0.2806253956389453,2,3,2000
+gemini-3.1-flash-lite-preview,self_transcript_response,,Personal Care,gender,-0.0081395391925969,-0.1811560188149783,0.1894168269632028,2,3,2000
+gemini-3.1-flash-lite-preview,self_transcript_response,,Personal Care,race,-0.006476429116278,-0.1979756197735428,0.1605654870662778,2,3,2000
+gemini-3.1-flash-lite-preview,self_transcript_response,,Purchasing Goods and Services,accent,0.0197650912573104,-0.0713829457830198,0.1482783381522594,6,3,2000
+gemini-3.1-flash-lite-preview,self_transcript_response,,Purchasing Goods and Services,gender,-0.0126833987933399,-0.1089153212817237,0.0940573093034154,6,3,2000
+gemini-3.1-flash-lite-preview,self_transcript_response,,Purchasing Goods and Services,race,0.0620458103628605,-0.0336830514252935,0.1825372903422211,6,3,2000
+gemini-3.1-flash-lite-preview,self_transcript_response,,Work-related Activities,accent,-0.0395052520125879,-0.1728189861482597,0.0916179109883843,3,3,2000
+gemini-3.1-flash-lite-preview,self_transcript_response,,Work-related Activities,gender,0.0055458659782595,-0.1450150562514378,0.1680049513289826,3,3,2000
+gemini-3.1-flash-lite-preview,self_transcript_response,,Work-related Activities,race,-0.0499817171158575,-0.1913189669693332,0.0909514277133921,3,3,2000
+gemini-3.1-pro-preview,direct_audio_response,0.01,Civic and Religious Activities,accent,0.005364007939362,-0.134581855102108,0.1441025762365545,3,3,2000
+gemini-3.1-pro-preview,direct_audio_response,0.01,Civic and Religious Activities,gender,0.1069201782354086,-0.0147469263996408,0.2330864148231318,3,3,2000
+gemini-3.1-pro-preview,direct_audio_response,0.01,Civic and Religious Activities,race,-0.1402191666743609,-0.2688891316898123,-0.0101768047079226,3,3,2000
+gemini-3.1-pro-preview,direct_audio_response,0.01,Educational Activities,accent,-0.2078023536484081,-0.2899675967070105,-0.115640168226082,1,3,1999
+gemini-3.1-pro-preview,direct_audio_response,0.01,Educational Activities,gender,-0.0492938487047039,-0.2596185995362407,0.1628746015797456,1,3,1999
+gemini-3.1-pro-preview,direct_audio_response,0.01,Educational Activities,race,-0.2571089088323147,-0.396012299460432,-0.0972954555106513,1,3,1999
+gemini-3.1-pro-preview,direct_audio_response,0.01,Finance,accent,,,,0,0,0
+gemini-3.1-pro-preview,direct_audio_response,0.01,Finance,gender,,,,0,0,0
+gemini-3.1-pro-preview,direct_audio_response,0.01,Finance,race,,,,0,0,0
+gemini-3.1-pro-preview,direct_audio_response,0.01,Health,accent,,,,0,0,0
+gemini-3.1-pro-preview,direct_audio_response,0.01,Health,gender,,,,0,0,0
+gemini-3.1-pro-preview,direct_audio_response,0.01,Health,race,,,,0,0,0
+gemini-3.1-pro-preview,direct_audio_response,0.01,Household Activities,accent,-0.0328953003447714,-0.1796674489716019,0.1071519628241327,2,3,2000
+gemini-3.1-pro-preview,direct_audio_response,0.01,Household Activities,gender,-0.0532396435494352,-0.1769998940628047,0.0812194925175422,2,3,2000
+gemini-3.1-pro-preview,direct_audio_response,0.01,Household Activities,race,0.0359770143383046,-0.1105731729735201,0.175167101890392,2,3,2000
+gemini-3.1-pro-preview,direct_audio_response,0.01,Leisure and Sports,accent,-0.0511479655047729,-0.162887318639648,0.0457637810475231,4,3,2000
+gemini-3.1-pro-preview,direct_audio_response,0.01,Leisure and Sports,gender,0.0048206186000168,-0.1040396478411676,0.099144305759263,4,3,2000
+gemini-3.1-pro-preview,direct_audio_response,0.01,Leisure and Sports,race,-0.1023083116379796,-0.1940161222408487,-0.0037510140041223,4,3,2000
+gemini-3.1-pro-preview,direct_audio_response,0.01,Personal Care,accent,-0.1781440395248822,-0.3294561097740592,-0.0233718274928807,2,3,2000
+gemini-3.1-pro-preview,direct_audio_response,0.01,Personal Care,gender,-0.2669591033913727,-0.4127406588334609,-0.1249101182591775,2,3,2000
+gemini-3.1-pro-preview,direct_audio_response,0.01,Personal Care,race,-0.1187736361632798,-0.2665734502204016,0.0289987038960212,2,3,2000
+gemini-3.1-pro-preview,direct_audio_response,0.01,Purchasing Goods and Services,accent,-0.0020228348770645,-0.106508064276585,0.1102375971743339,4,3,2000
+gemini-3.1-pro-preview,direct_audio_response,0.01,Purchasing Goods and Services,gender,-0.0428285465270622,-0.1668287021351943,0.0557024997886918,4,3,2000
+gemini-3.1-pro-preview,direct_audio_response,0.01,Purchasing Goods and Services,race,-0.019397709829762,-0.1281413632402506,0.0911502936313954,4,3,2000
+gemini-3.1-pro-preview,direct_audio_response,0.01,Work-related Activities,accent,-0.1556097058330061,-0.2974266806662994,-0.0350200192986231,2,3,2000
+gemini-3.1-pro-preview,direct_audio_response,0.01,Work-related Activities,gender,-0.0110507391478751,-0.1317529258622622,0.1421450436244897,2,3,2000
+gemini-3.1-pro-preview,direct_audio_response,0.01,Work-related Activities,race,-0.2105912546304333,-0.3291482369528891,-0.1027921124150643,2,3,2000
+gemini-3.1-pro-preview,direct_audio_response,,Civic and Religious Activities,accent,0.0020388775031448,-0.1388273183016369,0.1425708349618352,3,3,2000
+gemini-3.1-pro-preview,direct_audio_response,,Civic and Religious Activities,gender,0.1104788336325626,-0.0117186015684783,0.2373652602898123,3,3,2000
+gemini-3.1-pro-preview,direct_audio_response,,Civic and Religious Activities,race,-0.1435823852751495,-0.2699412520259013,-0.0134281660617572,3,3,2000
+gemini-3.1-pro-preview,direct_audio_response,,Educational Activities,accent,-0.0953172970600539,-0.2623362529945185,0.0116798843645917,1,3,1999
+gemini-3.1-pro-preview,direct_audio_response,,Educational Activities,gender,0.0308875384229221,-0.1918510841152169,0.1807237133848553,1,3,1999
+gemini-3.1-pro-preview,direct_audio_response,,Educational Activities,race,-0.2330217817084582,-0.3785836322588707,-0.1033008964636625,1,3,1999
+gemini-3.1-pro-preview,direct_audio_response,,Finance,accent,0.119697383192393,-0.0990659019495366,0.2907213866335783,1,3,1989
+gemini-3.1-pro-preview,direct_audio_response,,Finance,gender,0.173776578959851,0.1309039315873788,0.2863815919321921,1,3,1989
+gemini-3.1-pro-preview,direct_audio_response,,Finance,race,0.1053642915215064,-0.2311494288481201,0.2376186242850827,1,3,1989
+gemini-3.1-pro-preview,direct_audio_response,,Health,accent,0.10033057941407,0.0919579126963862,0.194447413403357,1,3,1237
+gemini-3.1-pro-preview,direct_audio_response,,Health,gender,0.1366499859978708,0.1211775665193203,0.2741839339095461,1,3,1237
+gemini-3.1-pro-preview,direct_audio_response,,Health,race,0.1378979569782747,0.1227927287779685,0.2722834800868555,1,3,1237
+gemini-3.1-pro-preview,direct_audio_response,,Household Activities,accent,-0.0021899820192463,-0.137547772078266,0.1280943826182608,2,3,2000
+gemini-3.1-pro-preview,direct_audio_response,,Household Activities,gender,-0.0829038901223582,-0.2057927155905465,0.0522376516752492,2,3,2000
+gemini-3.1-pro-preview,direct_audio_response,,Household Activities,race,0.0755311620739265,-0.0683178609508333,0.2084513614656679,2,3,2000
+gemini-3.1-pro-preview,direct_audio_response,,Leisure and Sports,accent,-0.0412967903609687,-0.1414226026724837,0.0470999071976926,4,3,2000
+gemini-3.1-pro-preview,direct_audio_response,,Leisure and Sports,gender,0.0385974319087001,-0.0691877676811214,0.1076130436249504,4,3,2000
+gemini-3.1-pro-preview,direct_audio_response,,Leisure and Sports,race,-0.1392189498874219,-0.2256271881648997,-0.0205894589130113,4,3,2000
+gemini-3.1-pro-preview,direct_audio_response,,Personal Care,accent,-0.081225429345996,-0.3297681225645685,0.0311905931354029,2,3,2000
+gemini-3.1-pro-preview,direct_audio_response,,Personal Care,gender,-0.2370853609345572,-0.3932254606104113,-0.1372212518354473,2,3,2000
+gemini-3.1-pro-preview,direct_audio_response,,Personal Care,race,-0.0458991182510167,-0.2519135608393172,0.0615268750377192,2,3,2000
+gemini-3.1-pro-preview,direct_audio_response,,Purchasing Goods and Services,accent,0.0001187961986688,-0.0783481938842215,0.0889948374314815,5,3,2000
+gemini-3.1-pro-preview,direct_audio_response,,Purchasing Goods and Services,gender,-0.0302806704436134,-0.1156411004791551,0.048896652426841,5,3,2000
+gemini-3.1-pro-preview,direct_audio_response,,Purchasing Goods and Services,race,-0.0071760988667964,-0.094766241739951,0.0936931209211778,5,3,2000
+gemini-3.1-pro-preview,direct_audio_response,,Work-related Activities,accent,-0.1356338853052522,-0.2640447704877321,-0.0525584736785363,3,3,2000
+gemini-3.1-pro-preview,direct_audio_response,,Work-related Activities,gender,0.0436234587069542,-0.1020961248547813,0.1541999472247303,3,3,2000
+gemini-3.1-pro-preview,direct_audio_response,,Work-related Activities,race,-0.0957794576441721,-0.3065165187808658,-0.0086558112780638,3,3,2000
+gemini-3.5-flash,direct_audio_response,0.01,Civic and Religious Activities,accent,0.1380478966692881,-0.1753069204829563,0.4375642938566504,1,3,2000
+gemini-3.5-flash,direct_audio_response,0.01,Civic and Religious Activities,gender,0.2115751781089516,-0.0802500063286626,0.5231186477079658,1,3,2000
+gemini-3.5-flash,direct_audio_response,0.01,Civic and Religious Activities,race,-0.0362162817839052,-0.3165657309825616,0.2569078617680094,1,3,2000
+gemini-3.5-flash,direct_audio_response,0.01,Leisure and Sports,accent,0.0918108104937342,-0.0705300459107,0.254191839599356,3,3,2000
+gemini-3.5-flash,direct_audio_response,0.01,Leisure and Sports,gender,-0.183913908475047,-0.334055458707542,-0.0318892885701349,3,3,2000
+gemini-3.5-flash,direct_audio_response,0.01,Leisure and Sports,race,-0.1244382015525174,-0.290168658560099,0.0308503381312132,3,3,2000
+gemini-3.5-flash,direct_audio_response,0.01,Purchasing Goods and Services,accent,-0.0296994360964209,-0.1413713483187884,0.1067522462354373,4,3,2000
+gemini-3.5-flash,direct_audio_response,0.01,Purchasing Goods and Services,gender,-0.07609173861056,-0.2126585600613583,0.055844685943323,4,3,2000
+gemini-3.5-flash,direct_audio_response,0.01,Purchasing Goods and Services,race,0.0350530111188264,-0.1072779343267152,0.1582484057110014,4,3,2000
+gemini-3.5-flash,direct_audio_response,,Civic and Religious Activities,accent,0.1380478966692881,-0.1753069204829563,0.4375642938566504,1,3,2000
+gemini-3.5-flash,direct_audio_response,,Civic and Religious Activities,gender,0.2115751781089516,-0.0802500063286626,0.5231186477079658,1,3,2000
+gemini-3.5-flash,direct_audio_response,,Civic and Religious Activities,race,-0.0362162817839052,-0.3165657309825616,0.2569078617680094,1,3,2000
+gemini-3.5-flash,direct_audio_response,,Leisure and Sports,accent,0.0918108104937342,-0.0705300459107,0.254191839599356,3,3,2000
+gemini-3.5-flash,direct_audio_response,,Leisure and Sports,gender,-0.183913908475047,-0.334055458707542,-0.0318892885701349,3,3,2000
+gemini-3.5-flash,direct_audio_response,,Leisure and Sports,race,-0.1244382015525174,-0.290168658560099,0.0308503381312132,3,3,2000
+gemini-3.5-flash,direct_audio_response,,Purchasing Goods and Services,accent,-0.0258355445686578,-0.1382055979466947,0.1108657253858773,4,3,2000
+gemini-3.5-flash,direct_audio_response,,Purchasing Goods and Services,gender,-0.0775864663007841,-0.2141462086684566,0.0557131731591284,4,3,2000
+gemini-3.5-flash,direct_audio_response,,Purchasing Goods and Services,race,0.0337293488074268,-0.108724302588075,0.1583339357798547,4,3,2000
+gpt-audio-1.5,direct_audio_response,0.01,Civic and Religious Activities,accent,-0.0996606460563216,-0.2079928259089199,0.0081611360945865,3,3,2000
+gpt-audio-1.5,direct_audio_response,0.01,Civic and Religious Activities,gender,0.0525792840949896,-0.0576560841867084,0.1563504580837969,3,3,2000
+gpt-audio-1.5,direct_audio_response,0.01,Civic and Religious Activities,race,-0.0252039793165632,-0.1336067314453947,0.0841114489594723,3,3,2000
+gpt-audio-1.5,direct_audio_response,0.01,Educational Activities,accent,0.0315610635968519,-0.1852751096692395,0.235176665282569,1,3,2000
+gpt-audio-1.5,direct_audio_response,0.01,Educational Activities,gender,-0.1244233258343387,-0.340317534560475,0.0956859932149381,1,3,2000
+gpt-audio-1.5,direct_audio_response,0.01,Educational Activities,race,0.0740449815703566,-0.1567807617940611,0.2618067685079264,1,3,2000
+gpt-audio-1.5,direct_audio_response,0.01,Finance,accent,0.0646164438163156,-0.0383903160919454,0.1686570008920576,2,3,2000
+gpt-audio-1.5,direct_audio_response,0.01,Finance,gender,0.0147838758340841,-0.1200785400332154,0.1727748147771877,2,3,2000
+gpt-audio-1.5,direct_audio_response,0.01,Finance,race,0.1019868052870674,-0.0673716768731173,0.2015725037780849,2,3,2000
+gpt-audio-1.5,direct_audio_response,0.01,Health,accent,0.0597524721416854,-0.206489586448644,0.3092094202854962,1,3,2000
+gpt-audio-1.5,direct_audio_response,0.01,Health,gender,-0.0237252992721489,-0.2672710613067742,0.2002637961888114,1,3,2000
+gpt-audio-1.5,direct_audio_response,0.01,Health,race,-0.0899036203926759,-0.3193072817023643,0.1473666108048235,1,3,2000
+gpt-audio-1.5,direct_audio_response,0.01,Household Activities,accent,0.0208308968806535,-0.1497630003867307,0.2067338903737323,2,3,2000
+gpt-audio-1.5,direct_audio_response,0.01,Household Activities,gender,-0.1308699121253638,-0.2943119019818617,0.0346610291648765,2,3,2000
+gpt-audio-1.5,direct_audio_response,0.01,Household Activities,race,-0.0822676868402677,-0.2420166747337425,0.0932296335718192,2,3,2000
+gpt-audio-1.5,direct_audio_response,0.01,Leisure and Sports,accent,-0.0655914065056917,-0.1812532923609568,0.0577918355778305,5,3,2000
+gpt-audio-1.5,direct_audio_response,0.01,Leisure and Sports,gender,0.0469073081080765,-0.0625784565119531,0.1635341770711173,5,3,2000
+gpt-audio-1.5,direct_audio_response,0.01,Leisure and Sports,race,-0.0465182008999807,-0.1483455828322277,0.0712763535158598,5,3,2000
+gpt-audio-1.5,direct_audio_response,0.01,Personal Care,accent,-0.0647732329169887,-0.2543230614623482,0.1242106352590142,2,3,2000
+gpt-audio-1.5,direct_audio_response,0.01,Personal Care,gender,-0.0233972712412764,-0.2214476426684808,0.1203689262309174,2,3,2000
+gpt-audio-1.5,direct_audio_response,0.01,Personal Care,race,0.0524277756794437,-0.1300114566342746,0.2047695729163009,2,3,2000
+gpt-audio-1.5,direct_audio_response,0.01,Purchasing Goods and Services,accent,-0.0319985927740164,-0.1358481929160895,0.0580290037896704,6,3,2000
+gpt-audio-1.5,direct_audio_response,0.01,Purchasing Goods and Services,gender,-0.0609011425864131,-0.1599467221561038,0.024965865804521,6,3,2000
+gpt-audio-1.5,direct_audio_response,0.01,Purchasing Goods and Services,race,0.0913115056577004,-0.002741752999461,0.1806781376058216,6,3,2000
+gpt-audio-1.5,direct_audio_response,0.01,Work-related Activities,accent,0.0135419620091911,-0.1200368251048485,0.139131505044568,3,3,2000
+gpt-audio-1.5,direct_audio_response,0.01,Work-related Activities,gender,-0.0397945334286621,-0.1824908873104515,0.0895430195379519,3,3,2000
+gpt-audio-1.5,direct_audio_response,0.01,Work-related Activities,race,0.0427876352846366,-0.0870489770129658,0.1654930038394965,3,3,2000
+gpt-audio-1.5,direct_audio_response,,Civic and Religious Activities,accent,-0.0996494349123092,-0.207329222895335,0.0089375745583079,3,3,2000
+gpt-audio-1.5,direct_audio_response,,Civic and Religious Activities,gender,0.0551264683130835,-0.0536148768700304,0.1582571076372003,3,3,2000
+gpt-audio-1.5,direct_audio_response,,Civic and Religious Activities,race,-0.0271176414037956,-0.1360197733032883,0.0810902346062244,3,3,2000
+gpt-audio-1.5,direct_audio_response,,Educational Activities,accent,0.039686777786574,-0.1733263476733889,0.2321803341757376,1,3,2000
+gpt-audio-1.5,direct_audio_response,,Educational Activities,gender,-0.116257506708449,-0.3317343778970558,0.1040006254089206,1,3,2000
+gpt-audio-1.5,direct_audio_response,,Educational Activities,race,0.0781051601201274,-0.1485792156948721,0.2657340478545917,1,3,2000
+gpt-audio-1.5,direct_audio_response,,Finance,accent,0.0281732194515563,-0.0446321765949741,0.1505304787163089,2,3,2000
+gpt-audio-1.5,direct_audio_response,,Finance,gender,-0.0627361986488537,-0.1942627569012286,0.133963951673263,2,3,2000
+gpt-audio-1.5,direct_audio_response,,Finance,race,0.0473258527049549,-0.108528113097164,0.1844176764615458,2,3,2000
+gpt-audio-1.5,direct_audio_response,,Health,accent,0.0004719385750696,-0.2016354128212832,0.2766636119410798,1,3,2000
+gpt-audio-1.5,direct_audio_response,,Health,gender,-0.0876079888544049,-0.2839932254100918,0.1729984587205331,1,3,2000
+gpt-audio-1.5,direct_audio_response,,Health,race,-0.0533858340052485,-0.2781277603588756,0.1228712064540334,1,3,2000
+gpt-audio-1.5,direct_audio_response,,Household Activities,accent,0.0349156942055273,-0.1373333481060834,0.2121845839659351,2,3,2000
+gpt-audio-1.5,direct_audio_response,,Household Activities,gender,-0.1281457973394592,-0.2894517062226999,0.0303359569265703,2,3,2000
+gpt-audio-1.5,direct_audio_response,,Household Activities,race,-0.0677110166915729,-0.2307891595115371,0.0963314418309574,2,3,2000
+gpt-audio-1.5,direct_audio_response,,Leisure and Sports,accent,-0.034161821706112,-0.1577480903108549,0.0700051746071084,5,3,2000
+gpt-audio-1.5,direct_audio_response,,Leisure and Sports,gender,0.0302884181775684,-0.0615226474016823,0.1442504685801353,5,3,2000
+gpt-audio-1.5,direct_audio_response,,Leisure and Sports,race,-0.0559021186538571,-0.1402951293406276,0.0668890505222246,5,3,2000
+gpt-audio-1.5,direct_audio_response,,Personal Care,accent,-0.1017261894353274,-0.2669203161204079,0.1299018822614959,2,3,2000
+gpt-audio-1.5,direct_audio_response,,Personal Care,gender,0.0155950940661544,-0.1843397787570283,0.1358314156027099,2,3,2000
+gpt-audio-1.5,direct_audio_response,,Personal Care,race,0.0566335856678089,-0.1083290918346549,0.1969620383421658,2,3,2000
+gpt-audio-1.5,direct_audio_response,,Purchasing Goods and Services,accent,-0.0125041366290547,-0.1267204696340665,0.0726760230468775,6,3,2000
+gpt-audio-1.5,direct_audio_response,,Purchasing Goods and Services,gender,-0.0560167794435928,-0.1547635613583408,0.028010397898388,6,3,2000
+gpt-audio-1.5,direct_audio_response,,Purchasing Goods and Services,race,0.0517103337604119,-0.0254773845491361,0.1551257735804803,6,3,2000
+gpt-audio-1.5,direct_audio_response,,Work-related Activities,accent,-0.0359585385114128,-0.1570483468217576,0.1279411583526867,3,3,2000
+gpt-audio-1.5,direct_audio_response,,Work-related Activities,gender,0.0199806499312588,-0.1635274744789633,0.1307039414054596,3,3,2000
+gpt-audio-1.5,direct_audio_response,,Work-related Activities,race,0.060072707920892,-0.0685531469476215,0.1615164799730109,3,3,2000
+moonshotai/Kimi-Audio-7B-Instruct,direct_audio_response,0.01,Civic and Religious Activities,accent,0.0263632473371432,-0.1272279063205962,0.1926800512289085,3,3,2000
+moonshotai/Kimi-Audio-7B-Instruct,direct_audio_response,0.01,Civic and Religious Activities,gender,-0.0345978314704818,-0.1829605029861561,0.1050594276323558,3,3,2000
+moonshotai/Kimi-Audio-7B-Instruct,direct_audio_response,0.01,Civic and Religious Activities,race,-0.036136230730628,-0.1879252521348627,0.1195281283263535,3,3,2000
+moonshotai/Kimi-Audio-7B-Instruct,direct_audio_response,0.01,Educational Activities,accent,0.1599663264228609,0.0883876497063506,0.2468580641347886,1,3,1894
+moonshotai/Kimi-Audio-7B-Instruct,direct_audio_response,0.01,Educational Activities,gender,0.2226002129933574,0.1201613525267426,0.343780515291533,1,3,1894
+moonshotai/Kimi-Audio-7B-Instruct,direct_audio_response,0.01,Educational Activities,race,-0.0783633432491381,-0.2799147148188918,0.1829211717177511,1,3,1894
+moonshotai/Kimi-Audio-7B-Instruct,direct_audio_response,0.01,Finance,accent,-0.0649733636534042,-0.2111404629132074,0.0682723580191582,3,3,2000
+moonshotai/Kimi-Audio-7B-Instruct,direct_audio_response,0.01,Finance,gender,-0.0506831926235019,-0.2025349913778381,0.0909328686904923,3,3,2000
+moonshotai/Kimi-Audio-7B-Instruct,direct_audio_response,0.01,Finance,race,-0.0235881532472026,-0.159541987494214,0.1021658976241819,3,3,2000
+moonshotai/Kimi-Audio-7B-Instruct,direct_audio_response,0.01,Household Activities,accent,0.2033034721623484,-0.0745724073126449,0.497359937299075,1,3,2000
+moonshotai/Kimi-Audio-7B-Instruct,direct_audio_response,0.01,Household Activities,gender,-0.0952491044789889,-0.3517969063991082,0.1577088179270602,1,3,2000
+moonshotai/Kimi-Audio-7B-Instruct,direct_audio_response,0.01,Household Activities,race,0.038977099215837,-0.2112689272305862,0.2932713171470953,1,3,2000
+moonshotai/Kimi-Audio-7B-Instruct,direct_audio_response,0.01,Leisure and Sports,accent,-0.0425516128473409,-0.1615898357836398,0.0810885327568452,4,3,2000
+moonshotai/Kimi-Audio-7B-Instruct,direct_audio_response,0.01,Leisure and Sports,gender,0.0450612367826984,-0.0805848641623604,0.1671418134664158,4,3,2000
+moonshotai/Kimi-Audio-7B-Instruct,direct_audio_response,0.01,Leisure and Sports,race,-0.1365333015428435,-0.2528451396838027,-0.0165667582648132,4,3,2000
+moonshotai/Kimi-Audio-7B-Instruct,direct_audio_response,0.01,Personal Care,accent,-0.0429023224214614,-0.2368916671624681,0.2581428782072997,1,3,1956
+moonshotai/Kimi-Audio-7B-Instruct,direct_audio_response,0.01,Personal Care,gender,0.135701754836431,-0.1318493807836945,0.3376323372966393,1,3,1956
+moonshotai/Kimi-Audio-7B-Instruct,direct_audio_response,0.01,Personal Care,race,-0.135701754836431,-0.3257242844051022,0.1394445164441546,1,3,1956
+moonshotai/Kimi-Audio-7B-Instruct,direct_audio_response,0.01,Purchasing Goods and Services,accent,-0.1286446110466174,-0.2820103302151486,0.0270159330157732,4,3,2000
+moonshotai/Kimi-Audio-7B-Instruct,direct_audio_response,0.01,Purchasing Goods and Services,gender,-0.1515833563558669,-0.2945937587042166,-0.0060374089529427,4,3,2000
+moonshotai/Kimi-Audio-7B-Instruct,direct_audio_response,0.01,Purchasing Goods and Services,race,-0.2207326885832982,-0.3466166032244808,-0.0912108238372039,4,3,2000
+moonshotai/Kimi-Audio-7B-Instruct,direct_audio_response,0.01,Work-related Activities,accent,-0.1546860619849012,-0.32770479239437,0.0301278903794066,2,3,2000
+moonshotai/Kimi-Audio-7B-Instruct,direct_audio_response,0.01,Work-related Activities,gender,0.2403393921735762,0.0575368433590334,0.4247093584965183,2,3,2000
+moonshotai/Kimi-Audio-7B-Instruct,direct_audio_response,0.01,Work-related Activities,race,-0.2832868689293939,-0.4687520588836128,-0.0948763142286228,2,3,2000
+moonshotai/Kimi-Audio-7B-Instruct,direct_audio_response,,Civic and Religious Activities,accent,0.0158728489876044,-0.1353779194064206,0.1788552303411366,3,3,2000
+moonshotai/Kimi-Audio-7B-Instruct,direct_audio_response,,Civic and Religious Activities,gender,-0.0205097609478718,-0.1712944138852998,0.1261771858433458,3,3,2000
+moonshotai/Kimi-Audio-7B-Instruct,direct_audio_response,,Civic and Religious Activities,race,-0.0499642703584672,-0.2010655548315698,0.1067752081535199,3,3,2000
+moonshotai/Kimi-Audio-7B-Instruct,direct_audio_response,,Educational Activities,accent,0.1276519711128189,-0.0939769509928653,0.2330381295889468,1,3,1967
+moonshotai/Kimi-Audio-7B-Instruct,direct_audio_response,,Educational Activities,gender,0.1774012276568453,-0.1319927276589163,0.3228455789448464,1,3,1967
+moonshotai/Kimi-Audio-7B-Instruct,direct_audio_response,,Educational Activities,race,-0.1114817262705412,-0.3077940313690566,0.1442541774693904,1,3,1967
+moonshotai/Kimi-Audio-7B-Instruct,direct_audio_response,,Finance,accent,0.0892968935181097,-0.1495571803649044,0.1825324469892866,3,3,2000
+moonshotai/Kimi-Audio-7B-Instruct,direct_audio_response,,Finance,gender,-0.0039850565962282,-0.1512797011766405,0.116756390194082,3,3,2000
+moonshotai/Kimi-Audio-7B-Instruct,direct_audio_response,,Finance,race,-0.0441481386445813,-0.2187782267394962,0.1900062773925663,3,3,2000
+moonshotai/Kimi-Audio-7B-Instruct,direct_audio_response,,Household Activities,accent,0.2033034721623484,-0.0745724073126449,0.497359937299075,1,3,2000
+moonshotai/Kimi-Audio-7B-Instruct,direct_audio_response,,Household Activities,gender,-0.0952491044789889,-0.3517969063991082,0.1577088179270602,1,3,2000
+moonshotai/Kimi-Audio-7B-Instruct,direct_audio_response,,Household Activities,race,0.038977099215837,-0.2112689272305862,0.2932713171470953,1,3,2000
+moonshotai/Kimi-Audio-7B-Instruct,direct_audio_response,,Leisure and Sports,accent,-0.0263138941577438,-0.1434201900905543,0.0889187949153966,5,3,2000
+moonshotai/Kimi-Audio-7B-Instruct,direct_audio_response,,Leisure and Sports,gender,0.0460642877934916,-0.07538876815356,0.1553722231863957,5,3,2000
+moonshotai/Kimi-Audio-7B-Instruct,direct_audio_response,,Leisure and Sports,race,-0.1148039324295181,-0.2287611541255135,-0.0087191042216254,5,3,2000
+moonshotai/Kimi-Audio-7B-Instruct,direct_audio_response,,Personal Care,accent,0.0264042785580086,-0.106373589614151,0.2110667626811503,2,3,1998
+moonshotai/Kimi-Audio-7B-Instruct,direct_audio_response,,Personal Care,gender,0.0371694060874965,-0.1092311277874634,0.1908103291533098,2,3,1998
+moonshotai/Kimi-Audio-7B-Instruct,direct_audio_response,,Personal Care,race,-0.0212964007743629,-0.1561771466904292,0.1348891356456617,2,3,1998
+moonshotai/Kimi-Audio-7B-Instruct,direct_audio_response,,Purchasing Goods and Services,accent,-0.1100445149801059,-0.248495445136571,0.0142229311120224,5,3,2000
+moonshotai/Kimi-Audio-7B-Instruct,direct_audio_response,,Purchasing Goods and Services,gender,0.0040093646177434,-0.1946988751880853,0.1098755779139413,5,3,2000
+moonshotai/Kimi-Audio-7B-Instruct,direct_audio_response,,Purchasing Goods and Services,race,-0.0595003015378984,-0.2465391528386258,0.0507994312278638,5,3,2000
+moonshotai/Kimi-Audio-7B-Instruct,direct_audio_response,,Work-related Activities,accent,-0.1066457979829538,-0.2228521925349697,0.0125021549001325,3,3,2000
+moonshotai/Kimi-Audio-7B-Instruct,direct_audio_response,,Work-related Activities,gender,0.1175863122538402,-0.0118320479343041,0.2642383437094876,3,3,2000
+moonshotai/Kimi-Audio-7B-Instruct,direct_audio_response,,Work-related Activities,race,-0.1605218573602902,-0.3100307959554388,-0.0300713122465926,3,3,2000

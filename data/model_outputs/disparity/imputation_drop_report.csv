@@ -1,0 +1,10 @@
+model_id,condition,n_prompts_total,n_prompts_kept,n_prompts_dropped,pct_dropped,fraction_imputed_among_kept
+Qwen/Qwen2.5-Omni-7B,direct_audio_response,54,49,5,9.26,0.0
+gemini-3.1-flash-lite-preview,direct_audio_response,54,37,17,31.48,0.005243252535671308
+gemini-3.1-pro-preview,direct_audio_response,54,53,1,1.85,0.018909410729991204
+gemini-3.5-flash,direct_audio_response,54,18,36,66.67,0.08
+gpt-audio-1.5,direct_audio_response,54,52,2,3.7,0.2822148183404728
+moonshotai/Kimi-Audio-7B-Instruct,direct_audio_response,54,50,4,7.41,0.0
+Qwen/Qwen2.5-Omni-7B,external_transcript_response,54,36,18,33.33,0.0
+gemini-3.1-flash-lite-preview,external_transcript_response,54,45,9,16.67,0.0017440592980161324
+gemini-3.1-flash-lite-preview,self_transcript_response,54,53,1,1.85,0.0003291639236339697

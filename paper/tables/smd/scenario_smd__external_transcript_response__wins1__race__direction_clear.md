@@ -1,0 +1,10 @@
+| scenario                       | Gemini-Flash-Lite        | Qwen-Omni                |
+|:-------------------------------|:-------------------------|:-------------------------|
+| Civic and Religious Activities | **-0.24 [-0.41, -0.07]** | -0.01 [-0.13, +0.14]     |
+| Educational Activities         | —                        | —                        |
+| Finance                        | -0.05 [-0.18, +0.07]     | **-0.18 [-0.36, -0.01]** |
+| Household Activities           | -0.02 [-0.29, +0.23]     | +0.12 [-0.15, +0.37]     |
+| Leisure and Sports             | -0.10 [-0.23, +0.05]     | +0.01 [-0.12, +0.16]     |
+| Personal Care                  | +0.07 [-0.11, +0.23]     | +0.11 [-0.05, +0.26]     |
+| Purchasing Goods and Services  | +0.03 [-0.11, +0.16]     | +0.02 [-0.10, +0.14]     |
+| Work-related Activities        | +0.06 [-0.23, +0.30]     | -0.20 [-0.40, +0.06]     |

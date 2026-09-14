@@ -1,0 +1,10 @@
+| scenario                       | Gemini-Flash-Lite · Race   | Gemini-Flash-Lite · Gender   |
+|:-------------------------------|:---------------------------|:-----------------------------|
+| Civic and Religious Activities | -0.10 [-0.19, +0.03]       | -0.09 [-0.19, +0.04]         |
+| Educational Activities         | +0.06 [-0.29, +0.23]       | **-0.18 [-0.30, -0.12]**     |
+| Finance                        | +0.02 [-0.11, +0.22]       | -0.07 [-0.22, +0.13]         |
+| Household Activities           | -0.14 [-0.32, +0.06]       | -0.02 [-0.21, +0.17]         |
+| Leisure and Sports             | +0.05 [-0.05, +0.18]       | +0.07 [-0.04, +0.19]         |
+| Personal Care                  | -0.01 [-0.20, +0.16]       | -0.01 [-0.18, +0.19]         |
+| Purchasing Goods and Services  | +0.06 [-0.03, +0.18]       | -0.01 [-0.11, +0.09]         |
+| Work-related Activities        | -0.05 [-0.19, +0.09]       | +0.01 [-0.15, +0.17]         |

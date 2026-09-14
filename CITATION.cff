@@ -1,0 +1,54 @@
+cff-version: 1.2.0
+title: "EchoLens: A Human-Speech Dataset for Auditing Demographic Sensitivity in Audio-Language Models"
+message: "If you use EchoLens, please cite the accompanying paper."
+type: dataset
+authors:
+  - family-names: Salinas
+    given-names: Alejandro
+    affiliation: "Stanford University"
+    email: alexsdl@law.stanford.edu
+  - family-names: Koenecke
+    given-names: Allison
+    affiliation: "Cornell Tech"
+  - family-names: Nyarko
+    given-names: Julian
+    affiliation: "Stanford University"
+version: 1.0.0
+date-released: "2026-09-12"
+license:
+  - Apache-2.0
+  - CC-BY-NC-4.0
+repository-code: "https://github.com/AlexSalinas99/echolens"
+url: "https://huggingface.co/datasets/alexsdl/EchoLens"
+keywords:
+  - audio-language models
+  - fairness
+  - bias audit
+  - speech
+  - evaluation
+abstract: >-
+  Voice interfaces are increasingly moving away from transcription pipelines towards end-to-end systems that directly respond to audio inputs. This development in turn requires a shift in evaluation methodology away from transcription accuracy and towards more substantive markers such as response validity. We introduce EchoLens, a demographically stratified dataset of 20,008 recordings from 515 adult participants residing in the U.S., with self-reported demographic information across race, gender, age, accent, and primary language, among others. Each participant speaks out loud and verbatim a randomized subset of 69 advice-seeking and estimation prompts spanning 11 domains grounded in the American Time Use Survey. Most prompts elicit quantitative responses from the model, allowing for direct analysis of output distributions across demographic subgroups without requiring reliance on LLM-as-a-judge. EchoLens also contains a documented audit protocol, which—in an illustrative application—we use to evaluate six current audio-language models. Under this assessment, we find that racial disparities are more frequent and larger in magnitude than gender disparities, with particular concentration in two models.
+# TODO: add the Zenodo concept DOI here once the first GitHub Release is archived.
+# identifiers:
+#   - type: doi
+#     value: 10.5281/zenodo.XXXXXXX
+#     description: "Concept DOI — always resolves to the latest release"
+preferred-citation:
+  type: conference-paper
+  title: "EchoLens: A Human-Speech Dataset for Auditing Demographic Sensitivity in Audio-Language Models"
+  authors:
+    - family-names: Salinas
+      given-names: Alejandro
+      affiliation: "Stanford University"
+    - family-names: Koenecke
+      given-names: Allison
+      affiliation: "Cornell Tech"
+    - family-names: Nyarko
+      given-names: Julian
+      affiliation: "Stanford University"
+  collection-title: "Findings of the Association for Computational Linguistics: EMNLP 2026"
+  publisher:
+    name: "Association for Computational Linguistics"
+  year: 2026
+  # TODO: add `pages`, the ACL Anthology `url`, and the paper DOI once the
+  # proceedings are published. They do not exist yet.

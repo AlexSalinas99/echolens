@@ -1,0 +1,42 @@
+# EchoLens — model inference, ASR, and speech metrics.
+#
+# Needed for notebooks 04-06 and 10, and for scripts/run_inference.py,
+# scripts/extend_llm_cache.py, scripts/build_assembled_audio.py.
+#
+# Every one of these is imported lazily inside a function, so the core analysis
+# path in requirements.txt does not need any of them installed.
+
+-r requirements.txt
+
+# --- providers --------------------------------------------------------------
+openai==1.105.0            # gpt-audio-1.5, whisper-1 ASR, gpt-4o-mini extraction fallback
+google-genai==1.61.0       # Gemini via Vertex AI or AI Studio
+huggingface-hub>=1.3.4     # scripts/download_from_hf.py
+
+# --- locally hosted models --------------------------------------------------
+torch==2.10.0              # Qwen2.5-Omni, Kimi-Audio, silero-vad
+transformers==5.1.0
+accelerate==1.12.0
+qwen-omni-utils==0.0.3
+
+# --- speech metrics ---------------------------------------------------------
+openai-whisper==20250625   # EnglishTextNormalizer, used for WER normalization
+jiwer==4.0.0
+silero-vad==6.2.1
+soundfile==0.12.1
+librosa==0.10.2.post1
+resampy>=0.4.3             # see note below
+
+# --- not installable from this file -----------------------------------------
+# flash-attn    Optional, Kimi-Audio only. Needs a CUDA toolchain:
+#                   pip install flash-attn --no-build-isolation
+#               src/eval/providers/kimi_audio.py installs a no-op stub if the
+#               import is broken, since text-only output never calls it.
+#
+# kimia_infer   Not on PyPI. Clone the repo and point KIMI_AUDIO_REPO at it:
+#                   git clone https://github.com/MoonshotAI/Kimi-Audio.git
+#                   export KIMI_AUDIO_REPO=/path/to/Kimi-Audio
+#
+# Note on resampy: it is imported at src/eval/speech_metrics.py:180 as a
+# fallback for clips that are not already 16 kHz. All released audio is 16 kHz,
+# so that branch never fired in the published run and no version is pinned.

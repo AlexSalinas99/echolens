@@ -1,0 +1,83 @@
+EchoLens — DATA LICENSE
+=======================
+
+This license covers the EchoLens DATASET and DATA ARTIFACTS: the audio
+recordings, the participant/prompt/split manifests under `data/`, the model
+outputs, and the rendered figures and tables under `paper/`.
+
+It does NOT cover the software in `src/`, `scripts/`, and `notebooks/`, which is
+licensed under Apache-2.0 — see LICENSE.
+
+The terms below reproduce Appendix K ("Release Details") of the accompanying
+EMNLP 2026 Findings paper.
+
+----------------------------------------------------------------------
+
+Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)
+
+Copyright (c) 2026 Alejandro Salinas, Allison Koenecke, Julian Nyarko.
+
+This dataset is licensed under the Creative Commons Attribution-NonCommercial 4.0
+International License. To view a copy of this license, visit:
+
+    https://creativecommons.org/licenses/by-nc/4.0/
+
+You are free to:
+
+  * Share — copy and redistribute the material in any medium or format.
+  * Adapt — remix, transform, and build upon the material.
+
+Under the following terms:
+
+  * Attribution — You must give appropriate credit, provide a link to the license,
+    and indicate if changes were made. You may do so in any reasonable manner, but
+    not in any way that suggests the licensor endorses you or your use.
+  * NonCommercial — You may not use the material for commercial purposes.
+
+No additional restrictions — You may not apply legal terms or technological measures
+that legally restrict others from doing anything the license permits.
+
+----------------------------------------------------------------------
+
+COMMERCIAL USE
+
+Commercial use of this dataset (including but not limited to use in
+revenue-generating products, commercial model training, or paid services) requires
+prior written permission from the authors. Commercial licensing requests should be
+directed to:
+
+    Alejandro Salinas (maintainer)
+    alexsdl@law.stanford.edu
+
+----------------------------------------------------------------------
+
+INTENDED USE AND PROHIBITED USES
+
+EchoLens contains identifiable human speech and participant-linked demographic
+metadata, collected under Stanford IRB Protocol #77233 from participants who
+consented to public redistribution.
+
+The dataset is intended for research auditing and evaluation of audio-language
+models. It is NOT for speaker identification, voice biometrics, production
+voice-system deployment, or treating recordings as evidence of speaker identity.
+These applications are outside the scope of participant consent and are not
+permitted under any license.
+
+The demographic labels in EchoLens are self-reported and support a bounded audit
+of whether audio-language models respond differently to comparable spoken requests
+across demographic speech variation. Speech cues must not be interpreted as
+ground-truth evidence of identity.
+
+Participants were never asked to state names or other direct identifiers.
+Do not attempt to identify, contact, or infer the legal identity of any speaker.
+
+Participants retain the right to withdraw. On a withdrawal request the maintainers
+will remove the affected recordings and issue a new version; you agree to delete
+withdrawn recordings from your copies on notification.
+
+----------------------------------------------------------------------
+
+CITATION
+
+If you use this dataset, please cite the accompanying paper. See CITATION.cff and
+README.md.
